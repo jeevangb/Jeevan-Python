@@ -47,3 +47,33 @@ for i in range(x):
       print("process ends")
       break
    print(i)
+
+#continue
+for i in range(6):
+   if i%2==0:
+      continue
+   print(i)
+
+
+cart=[10,20,30]
+for item in cart:
+    if item>100:
+        print("not process")
+        break
+    print(item)
+else:
+    print("all proceed...")
+
+#del
+x=10
+print(x)
+del x
+# print(x) it is delected so get error after del
+
+#None 
+n ="jeevan"
+print(n)
+n=None
+print(n)
+n="kiran"
+print(n)
